@@ -1,0 +1,6 @@
+integration:
+  azure:
+    search:
+      url: "https://api.bing.microsoft.com/bing/v7.0/"
+      news:
+        subscription-key: "key"
