@@ -23,10 +23,14 @@ extra["testcontainersVersion"] = "1.17.6"
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.microsoft.azure.cognitiveservices:azure-cognitiveservices-newssearch:1.0.2")
+    testImplementation("com.github.tomakehurst:wiremock:2.27.2")
+
 
     //overriding bing sdk vulnerable libs
     implementation("com.google.guava:guava:31.1-jre")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("org.mapstruct:mapstruct:1.5.3.Final")
+    annotationProcessor("org.mapstruct:mapstruct-processor:1.5.3.Final")
 
     compileOnly("org.projectlombok:lombok")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
