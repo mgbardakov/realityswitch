@@ -3,7 +3,7 @@ integration:
     search:
       url: "https://api.bing.microsoft.com/v7.0/"
       news:
-        subscription-key: "d86074419cf143deb41bb6845b712b95"
+        subscription-key: "subscription-key"
 news-sources:
   ru: iz.ru, tsargrad.tv, rbc.ru, aif.ru, rg.ru
   eu: bbc.com, svoboda.org
